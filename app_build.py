@@ -27,7 +27,7 @@ st.image("https://media.giphy.com/media/l46Cy1rHbQ92uuLXa/giphy.gif", width= 500
 
 user_file= st.sidebar.file_uploader("Upload your CSV file")
 
-dataset= 'diabetes.csv'
+dataset= 'heart.csv'
 
 if user_file is not None:
 	

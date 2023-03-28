@@ -1,5 +1,4 @@
 import streamlit as st 
-import scipy
 import warnings
 warnings.filterwarnings('ignore')
 st.set_option('deprecation.showPyplotGlobalUse', False)
@@ -7,7 +6,6 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt  
 import seaborn as sns
-from scipy import stats
 from PIL import Image
 import webbrowser
 import streamlit.components.v1 as components

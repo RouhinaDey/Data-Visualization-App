@@ -1,4 +1,5 @@
 import streamlit as st 
+import scipy
 import warnings
 warnings.filterwarnings('ignore')
 st.set_option('deprecation.showPyplotGlobalUse', False)
